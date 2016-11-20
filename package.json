@@ -1,12 +1,14 @@
 {
-  "name": "my-angular-2-app-examples",
+  "name": "my-angular-2-ngmodules-and-lazy-loading",
   "version": "1.0.0",
   "author": "Danielle Soldera",
-  "description": "My Angular 2 App Example builded to help me and others",
+  "description": "An Angular2 Example of NgModules And how to Lazy Loadin",
   "keywords": [
     "angular2",
     "forms",
-    "typescript"
+    "typescript",
+    "ngModules",
+    "Lazy Loading"
   ],
   "scripts": {
     "start": "concurrently \"tsc -w\" \"lite-server\" ",
@@ -28,17 +30,10 @@
     "@angular/platform-browser": "^2.1.2",
     "@angular/platform-browser-dynamic": "^2.1.2",
     "@angular/router": "^3.1.2",
-    "angular2-materialize": "^6.1.1",
-    "angular2-text-mask": "^2.1.0",
     "core-js": "^2.4.1",
-    "jquery": "^3.1.1",
-    "materialize-css": "^0.97.8",
-    "ng2-bootstrap": "^1.1.16",
-    "ng2-select": "^1.1.2",
     "reflect-metadata": "^0.1.3",
     "rxjs": "5.0.0-beta.12",
     "systemjs": "0.19.27",
-    "text-mask-core": "^1.0.0",
     "tsd": "^0.6.5",
     "zone.js": "^0.6.23"
   },
