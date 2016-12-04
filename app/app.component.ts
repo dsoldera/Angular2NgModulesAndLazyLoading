@@ -4,10 +4,12 @@ import { Component } from '@angular/core';
     moduleId: module.id,
     selector: 'app',
     template: `
-              <nav><ul>
-              <li><a [routerLink]="['/']">Home</a></li>
-              </ul></nav>
-              <router-outlet></router-outlet>` 
+            <nav>
+              <a routerLink="home" routerLinkActive="active">Home</a>
+              <a routerLink="truck" routerLinkActive="active">Food Truck</a>
+              <a routerLink="credit" routerLinkActive="active">Credit</a>
+            </nav>
+            <router-outlet></router-outlet>`
 })
 
 export class AppComponent {}
