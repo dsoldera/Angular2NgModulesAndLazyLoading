@@ -3,8 +3,8 @@ import { NgModule } from '@angular/core';
 
 const appRoutes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full'},
-  {path: 'home', loadChildren: 'app/home/home.module#HomeModule' },
-  {path: 'truck', loadChildren: 'app/truck/truck.module#TruckModule' },
+  {path: 'home', loadChildren: 'app/home/home.module#HomeModule' }
+  // {path: 'truck', loadChildren: 'app/truck/truck.module#TruckModule' },
 
 ];
 
