@@ -1,7 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Http} from '@angular/http';
-import { User } from '../models/users.model';
-import 'rxjs/add/operator/map';
 
 @Component({
   moduleId: module.id,
@@ -10,14 +7,7 @@ import 'rxjs/add/operator/map';
 })
 export class HomeComponent implements OnInit {
 
-  users: User[];
+  constructor() { }
 
-  constructor(private http: Http) { }
-
-  ngOnInit() {
-    this.http.get('http://reqres.in/api/users')
-    .map(res => res.json().data)
-    .subscribe(users => this.users = users);
-    console.log(this.users);
-  }
+  ngOnInit() { }
 }

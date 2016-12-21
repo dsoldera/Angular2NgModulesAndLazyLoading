@@ -4,11 +4,14 @@ import { Component } from '@angular/core';
     moduleId: module.id,
     selector: 'app',
     template: `
-            <nav>
-              <a routerLink="home" routerLinkActive="active">Home</a>
-              <a routerLink="truck" routerLinkActive="active">Food Truck</a>
-              <a routerLink="credit" routerLinkActive="active">Credit</a>
-            </nav>
+              <nav class="navbar navbar-default">
+              <div class="navbar-header">
+              <ul class="nav navbar-nav">
+              <li class="nav-item" routerLinkActive="active"><a class="nav-link" [routerLink]="['/home']">Home</a></li>
+              <li class="nav-item" routerLinkActive="active"><a class="nav-link" [routerLink]="['/truck']">Food Truck</a><li>
+              </ul>
+              </div>
+              </nav>
             <router-outlet></router-outlet>`
 })
 
