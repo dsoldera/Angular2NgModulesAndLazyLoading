@@ -7,8 +7,15 @@ import { Component } from '@angular/core';
               <nav class="navbar navbar-default">
               <div class="navbar-header">
               <ul class="nav navbar-nav">
-              <li class="nav-item" routerLinkActive="active"><a class="nav-link" [routerLink]="['/home']">Home</a></li>
-              <li class="nav-item" routerLinkActive="active"><a class="nav-link" [routerLink]="['/truck']">Food Truck</a><li>
+                <li class="nav-item" routerLinkActive="active">
+                  <a class="nav-link" [routerLink]="['/home']">Home</a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                  <a class="nav-link" [routerLink]="['/truck']">Food Truck</a>
+                <li>
+                <li class="nav-item" routerLinkActive="active">
+                  <a class="nav-link" [routerLink]="['/my-account']">My Account</a>
+                <li>
               </ul>
               </div>
               </nav>

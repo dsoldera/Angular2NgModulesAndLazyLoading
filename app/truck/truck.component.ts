@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'truck',
   templateUrl: 'truck.component.html'
 })
+
 export class TruckComponent implements OnInit {
   constructor() { }
 
