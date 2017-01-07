@@ -1,5 +1,4 @@
 # Angular2NgModulesAndLazyLoading
-An Angular2 Example of NgModules And how to Lazy Loading
 
 > This is a Example how to create NgModules and How to Lazy Loading them.
 
@@ -11,6 +10,8 @@ Also is a great example how to work advanced with Routes on Angular2
 
 ## Code by these source:
 
+* [Angular 2 Routing](https://school.scotch.io/routing-angular-2-applications)
+*
 * [Angular 2 NgModules Doc](https://angular.io/docs/ts/latest/guide/ngmodule.html)
 * [Angular 2 Lazy Loading Modules Doc](https://angular.io/docs/ts/latest/guide/ngmodule.html#!#lazy-load)
 *
