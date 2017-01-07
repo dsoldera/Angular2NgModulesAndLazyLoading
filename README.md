@@ -3,6 +3,7 @@ An Angular2 Example of NgModules And how to Lazy Loading
 
 > This is a Example how to create NgModules and How to Lazy Loading them.
 
+Also is a great example how to work advanced with Routes on Angular2
 
 # Food Truck App
 
