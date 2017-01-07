@@ -2,12 +2,13 @@ import { NgModule } from '@angular/core';
 import { CommonModule }  from '@angular/common';
 
 /** Components */
-import { TruckComponent }   from './truck.component';
+import { TruckSectionComponent }   from './truck.component';
 import { TruckListComponent } from './truck-list/truck-list.component';
 import { TruckDetailsComponent } from './truck-details/truck-details.component';
 
 /** Services */
 import { TruckService } from '../services/truck.services';
+import { TruckResolveService } from '../services/truck-resolve.services';
 
 /** Routing */
 import { TruckRoutingModule } from './truck-routing.module';
@@ -20,12 +21,13 @@ import { TruckRoutingModule } from './truck-routing.module';
   ],
   exports: [],
   declarations: [
-    TruckComponent,
+    TruckSectionComponent,
     TruckListComponent,
     TruckDetailsComponent
   ],
   providers: [
-    TruckService
+    TruckService,
+    TruckResolveService
   ],
 })
 

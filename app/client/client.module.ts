@@ -3,9 +3,11 @@ import { CommonModule }  from '@angular/common';
 
 /** Components */
 import { ClientComponent }   from './client.component';
+import { ClientDetailsComponent } from './client-details/client-details.component';
 
 /** Services */
 import { UserService } from '../services/user.services';
+import { UserResolveService } from '../services/user-resolve.services';
 
 /** Routing */
 import { ClientRoutingModule } from './client-routing.module';
@@ -17,10 +19,12 @@ import { ClientRoutingModule } from './client-routing.module';
   ],
   exports: [],
   declarations: [
-    ClientComponent
+    ClientComponent,
+    ClientDetailsComponent
   ],
   providers: [
-    UserService
+    UserService,
+    UserResolveService
   ],
 })
 export class ClientModule { }

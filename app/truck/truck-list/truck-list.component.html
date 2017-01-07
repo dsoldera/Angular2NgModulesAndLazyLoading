@@ -1,1 +1,9 @@
 <h2>Truck List</h2>
+
+<ul class="list-group" *ngIf="trucks">
+  <a *ngFor="let truck of trucks" href="#"
+      [routerLink]="['/truck', truck.id, 'details']"
+      class="list-group-item">
+        {{ truck.name}} - {{ truck.type_food}}
+  </a>
+</ul>

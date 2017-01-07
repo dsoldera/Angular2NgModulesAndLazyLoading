@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: 'truck.component.html'
 })
 
-export class TruckComponent implements OnInit {
+export class TruckSectionComponent implements OnInit {
   constructor() { }
 
   ngOnInit() { }
